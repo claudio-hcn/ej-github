@@ -1,0 +1,19 @@
+  .popover {
+    background-color: #2c3e50; /* Color de fondo */
+  }
+  
+  .popover-header {
+    background-color: #34495e; /* Color del header */
+    color: #f39c12; /* Color del texto del header */
+    border-bottom: 1px solid #f39c12;
+  }
+  
+  .popover-body {
+    background-color: #2c3e50; /* Color del cuerpo */
+    color: #ecf0f1; /* Color del texto del cuerpo */
+  }
+  
+  /* Flecha del popover */
+  .popover .popover-arrow::after {
+    border-right-color: #2c3e50; /* Ajusta según la posición */
+  }
