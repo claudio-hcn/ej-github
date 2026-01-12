@@ -17,3 +17,35 @@
   .popover .popover-arrow::after {
     border-right-color: #2c3e50; /* Ajusta según la posición */
   }
+
+  #saludoForm { 
+        display: none; 
+        background: #fdfdff; 
+        padding: 20px; 
+        border-radius: 10px; 
+        margin-bottom: 20px; 
+        border: 2px dashed #040b07;
+    }
+
+.fade-out {
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.slide-down {
+  display: block !important;
+  max-height: 500px;
+  overflow: hidden;
+  animation: slideDown 0.4s ease forwards;
+}
+
+@keyframes slideDown {
+  from {
+    max-height: 0;
+    opacity: 0;
+  }
+  to {
+    max-height: 500px;
+    opacity: 1;
+  }
+}
