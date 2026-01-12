@@ -1,2 +1,2 @@
 # ej-github
-prueba de clonación de repositorio de githubn
+esta rama fue creada para hacer unas pruebas trabajando de forma remota
